@@ -16,6 +16,7 @@ use App\Http\Controllers\LocationController;
 use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\PrivacyPolicyController;
+use App\Http\Controllers\FreeCareLandingController;
 
 Route::get('/', HomeController::class)->name('home');
 Route::get('/about', AboutController::class)->name('about');
@@ -35,3 +36,5 @@ Route::get('/services/nursing-care', [ServiceController::class, 'nursingCare'])-
 Route::get('/location/{county}', [LocationController::class, 'countyShow'])->name('location.county');
 Route::get('/locations/{county}', [LocationController::class, 'countyShow'])->name('locations.county');
 Route::get('/locations/{county}/{township}', LocationController::class)->name('locations.township');
+Route::get('/free-care', FreeCareLandingController::class)->name('landing.free-care');
+Route::get('/free-care/thank-you', [FreeCareLandingController::class, 'thanks'])->name('landing.free-care.thanks');

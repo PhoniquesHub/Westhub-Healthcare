@@ -80,4 +80,7 @@ return [
         ))),
     ],
 
+        'gtm_id' => env('GTM_CONTAINER_ID'),
+    'meta_pixel_id' => env('META_PIXEL_ID'),
 ];
+

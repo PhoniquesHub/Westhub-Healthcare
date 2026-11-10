@@ -29,7 +29,7 @@
                 'Live-in Homemaker services',
                 'Companionship and Sitter Services'
             ],
-            'link'=> '/care-services/home-care',
+            'link'=> '/services/home-care',
         ],
         [
             'number' => '02',
@@ -47,7 +47,7 @@
                 'Trach Care',
                 'Companionship and Sitter Services'
             ],
-            'link'=> '/care-services/nursing-care',
+            'link'=> '/services/nursing-care',
         ],
         [
             'number' => '03',
@@ -63,7 +63,7 @@
                 'Occupational Therapy',
                 'Medical Social Worker Services'
             ],
-            'link'=> '/care-services/therapeutic-services',
+            'link'=> '/services/therapeutic-services',
         ]
     ];
 @endphp
